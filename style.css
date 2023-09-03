@@ -1,0 +1,62 @@
+h1 {
+    color: #188d85;
+    background-color: #b7e7e3;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 10px;
+    font-family: 궁서;
+    font-size: 2.5em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    clear: left;
+    background-color: #b7e7e3;
+    padding-left: 1.2rem;
+    color: #188d85;
+}
+
+h2:first-letter {
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: #188d85;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+p {
+
+}
+
+p:first-letter, blockquote:first-letter {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    float: left;
+}
+
+blockquote img {
+    float: left;
+    margin-right: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+dt {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    padding: 5px 20px;
+    background-color: #409f9f;
+    color: #fff;
+}
+
+dd {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 2px solid #409f9f; 
+}
