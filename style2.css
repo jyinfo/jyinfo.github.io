@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'KBO-Dia-Gothic_bold';
+    color: #ffdd04;
+    background-color: #954a26;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: ridge;
+    border-width: 15px;
+    border-color: #ffe607;
+    border-radius: 30px;
+    font-size: 50px;
+    box-shadow: 10px 10px 10px rgba(14, 14, 14, 0.692);
+}
+
+h2 {
+    font-family: 'KBO-Dia-Gothic_bold';
+    color: #2854e5;
+    background-color: #95e8ff;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(3, 187, 190);
+    border-radius: 100px;
+}
+
+h2::first-letter {
+    font-size: 30px;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #05ffc9;
+}
+
+h2:hover {
+    background-color: #f14343;
+    color: #fff; 
+    border-color: #ffe607;
+}
+
+h2:hover::first-letter {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000;
+}
+
+p {
+    text-indent: 50px;
+    line-height: 200%;
+    font-family: 'ChosunGu';
+    font-size: 20px;
+}
