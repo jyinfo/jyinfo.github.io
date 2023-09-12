@@ -7,3 +7,36 @@ body {
     padding: 50px; 
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #05f7ff;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    display: block;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    background-color: #33ff00;
+    color: #030c15;
+    border-color: #000;
+    border-radius: 100px;
+}
+
+
+
