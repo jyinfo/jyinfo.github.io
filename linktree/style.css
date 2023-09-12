@@ -29,6 +29,7 @@ a {
     margin: 15px;
     text-decoration: none;
     font-size: 25px;
+    transition: 0.5s;
 }
 
 a:hover {
@@ -36,6 +37,10 @@ a:hover {
     color: #030c15;
     border-color: #000;
     border-radius: 100px;
+    transform: scale(1.2) rotate(-5deg);
+    letter-spacing: 20px;
+    box-shadow: 5px 5px 0px #000;
+    font-weight: bold;
 }
 
 
